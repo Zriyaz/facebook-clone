@@ -1,0 +1,22 @@
+
+.login{
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+.login > div > img{
+	object-fit: contain;
+	height: 150px;
+}
+
+.login > button{
+	width: 300px;
+	background-color: #2e81f4;
+	color: black;
+	font-weight: 800;
+}
+.login > div{
+	display: flex;
+	flex-direction: column;
+}
